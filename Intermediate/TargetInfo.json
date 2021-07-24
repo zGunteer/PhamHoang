@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Chess",
+			"Path": "C:\\Users\\phamh\\Desktop\\Game Dev application\\saved\\Chess zipped\\Source\\Chess.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChessEditor",
+			"Path": "C:\\Users\\phamh\\Desktop\\Game Dev application\\saved\\Chess zipped\\Source\\ChessEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

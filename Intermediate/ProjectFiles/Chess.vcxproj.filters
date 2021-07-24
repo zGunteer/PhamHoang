@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Chess.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EAF01D39-7ED0-45FF-B08F-812232A051AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Chess.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ChessEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F1118E06-DDDB-4723-88E4-499DE94183DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Chess">
+      <UniqueIdentifier>{EEE79750-FD4D-4B9A-91BD-C7064BBFDCA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Chess\Chess.Build.cs">
+      <Filter>Source\Chess</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Chess\Chess.cpp">
+      <Filter>Source\Chess</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Chess\Chess.h">
+      <Filter>Source\Chess</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Chess\ChessGameModeBase.cpp">
+      <Filter>Source\Chess</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Chess\ChessGameModeBase.h">
+      <Filter>Source\Chess</Filter>
+    </ClInclude>
+    <Filter Include="Source\Chess\Private">
+      <UniqueIdentifier>{83B44C53-8D31-4F90-AC91-C81B16BA1459}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chess\Private\BaseActor.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\ChessBoard.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\ChessController.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\ChessPlayer.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chess\Private\Pion.cpp">
+      <Filter>Source\Chess\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chess\Public">
+      <UniqueIdentifier>{D91F43FA-685E-4653-972C-BD84A6161E1E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Chess\Public\BaseActor.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\ChessBoard.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\ChessController.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\ChessPlayer.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Chess\Public\Pion.h">
+      <Filter>Source\Chess\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
